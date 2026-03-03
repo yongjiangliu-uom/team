@@ -1,0 +1,78 @@
+########################################
+# Python
+########################################
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.ipynb_checkpoints/
+
+########################################
+# Virtualenv / Environment
+########################################
+.venv/
+venv/
+ENV/
+.env
+.env.*
+!.env.example
+
+########################################
+# Flask / Local runtime files
+########################################
+instance/
+*.sqlite3
+*.db
+
+########################################
+# macOS / Windows
+########################################
+.DS_Store
+Thumbs.db
+
+########################################
+# IDE / Editor
+########################################
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+########################################
+# Logs
+########################################
+*.log
+
+########################################
+# Build / Distribution
+########################################
+build/
+dist/
+*.egg-info/
+.eggs/
+
+########################################
+# Node (if you have frontend later)
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+########################################
+# Project-specific: ignore backend-generated junk anywhere
+########################################
+backend/**/__pycache__/
+backend/**/*.pyc
+backend/.venv/
+backend/venv/
+backend/instance/
+backend/*.sqlite3
+backend/*.db
+backend/.env
+backend/.env.*
